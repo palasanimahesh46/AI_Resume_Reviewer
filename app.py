@@ -41,7 +41,6 @@ def input_pdf_setup(uploaded_file):
     else:
         raise FileNotFoundError("No file uploaded")
 
-## Streamlit App
 
 st.set_page_config(page_title="ATS Resume Expert")
 st.header("ATS Tracking System")
